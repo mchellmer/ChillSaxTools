@@ -1,2 +1,2 @@
-msg = "hi"
-print(msg)
+import ventrisMessenger.messenger as vm
+vm.getOutputs()
