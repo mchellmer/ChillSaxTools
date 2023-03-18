@@ -2,7 +2,8 @@ param(
     [switch] $Debug,
 	[string] $command="Set",
 	[string] $parameter="Engine",
-	[string] $value="EDome"
+	[string] $value="TrueSpring",
+	[string] $engine="TrueSpring"
   )
 
 $psMidiPath = ".\lib\Windows-10-PowerShell-MIDI-master\PeteBrown.PowerShellMidi\bin\Debug\PeteBrown.PowerShellMidi.dll"
@@ -11,8 +12,13 @@ Import-Module $psMidiPath
 
 ############################################## Ventris Parameter Mapping
 $ventrisMap = Get-Content -Raw -Path $ventrisJsonPath | ConvertFrom-Json
+$ventrisValue = $value
+if ($parameter -eq "Engine") {
+	$ventrisValue = $ventrisMap.ParameterValue.$value.Value
+} elseif ($parameter -in @("Control1", "Control2" )) {
+	$parameter = $ventrisMap.ParameterValue.$engine.$parameter
+}
 $ventrisCC = $ventrisMap.ParameterCC.$parameter.CC
-$ventrisValue = $ventrisMap.ParameterValue.$value.Value
 
 Write-Host "Received request: $command $parameter to $value - Sending CC: $ventrisCC,$ventrisValue"
 
