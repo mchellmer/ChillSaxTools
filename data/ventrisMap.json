@@ -1,0 +1,156 @@
+{
+	"ParameterCC" :  {
+		"Engine": {
+			"CC": 1,
+			"MIN": 0,
+			"MAX": 11
+		},
+		"Time": {
+			"CC": 2,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"PreDelay": {
+			"CC": 3,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"Bass": {
+			"CC": 7,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"ModDepth": {
+			"CC": 9,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"HallSize": {
+			"CC": 13,
+			"MIN": 0,
+			"MAX": 5
+		},
+		"SpringLength": {
+			"CC": 13,
+			"MIN": 0,
+			"MAX": 6
+		},
+		"PlateSize": {
+			"CC": 13,
+			"MIN": 0,
+			"MAX": 3
+		},
+		"Distortion": {
+			"CC": 15,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"TremeloDepth": {
+			"CC": 15,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"TremeloRate": {
+			"CC": 16,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"ShimmerCrossfade": {
+			"CC": 15,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"Regeneration": {
+			"CC": 19,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"DelayFeedback": {
+			"CC": 11,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"Crossfade": {
+			"CC": 19,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"EnvelopeGain": {
+			"CC": 15,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"SwellTime": {
+			"CC": 16,
+			"MIN": 0,
+			"MAX": 127
+		},
+		"Diffusion": {
+			"CC": 8,
+			"MIN": 0,
+			"MAX": 127
+		}
+    },
+	"ParameterValue" :  {
+		"Room": {
+			"Value": 0,
+			"Control1": "Bass",
+			"Control2": "ModDepth"
+		},
+		"Hall": {
+			"Value": 1,
+			"Control1": "Bass",
+			"Control2": "HallSize"
+		},
+		"EDome": {
+			"Value": 2,
+			"Control1": "Bass",
+			"Control2": "ModDepth"
+		},
+		"TrueSpring": {
+			"Value": 3,
+			"Control1": "Bass",
+			"Control2": "SpringLength"
+		},
+		"Plate": {
+			"Value": 4,
+			"Control1": "Bass",
+			"Control2": "PlateSize"
+		},
+		"LoFi": {
+			"Value": 5,
+			"Control1": "Distortion",
+			"Control2": "ModDepth"
+		},
+		"Modverb": {
+			"Value": 6,
+			"Control1": "TremeloDepth",
+			"Control2": "TremeloRate"
+		},
+		"Shimmer": {
+			"Value": 7,
+			"Control1": "ShimmerCrossfade",
+			"Control2": "Regeneration"
+		},
+		"Echoverb": {
+			"Value": 8,
+			"Control1": "DelayFeedback",
+			"Control2": "Crossfade"
+		},
+		"Swell": {
+			"Value": 9,
+			"Control1": "EnvelopeGain",
+			"Control2": "SwellTime"
+		},
+		"Offspring": {
+			"Value": 10,
+			"Control1": "Bass",
+			"Control2": "ModDepth"
+		},
+		"Reverse": {
+			"Value": 11,
+			"Control1": "Diffusion",
+			"Control2": "ModDepth"
+		}
+	}
+}
