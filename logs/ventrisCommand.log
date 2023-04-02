@@ -102,3 +102,812 @@ Parameter name: Id
 2023/04/02 09:21:43 Received request: Bass to 25 - Sending CC: 7,25
 2023/04/02 09:21:43 Received request: ModDepth to 25 - Sending CC: 9,25
 2023/04/02 09:21:43 Received request: engine to room - Sending CC: 1,0
+2023/04/02 09:34:30 Received request: !control1 to 0 - Sending CC: ,0
+2023/04/02 09:34:30 Failed to retrieve ventris midi
+2023/04/02 09:34:30 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:37:26 Received request: !control1 to 0 - Sending CC: ,0
+2023/04/02 09:37:26 Failed to retrieve ventris midi
+2023/04/02 09:37:26 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:38:37 Received request: !control1 to 0 - Sending CC: ,0
+2023/04/02 09:38:37 Failed to retrieve ventris midi
+2023/04/02 09:38:37 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:39:50 Received request: !control1 to 0 - Sending CC: ,0
+2023/04/02 09:39:50 Failed to retrieve ventris midi
+2023/04/02 09:39:50 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:42:04 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 09:42:04 Failed to retrieve ventris midi
+2023/04/02 09:42:04 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:42:58 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 09:43:26 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 09:43:26 Failed to retrieve ventris midi
+2023/04/02 09:43:26 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:43:59 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 09:44:00 Failed to retrieve ventris midi
+2023/04/02 09:44:00 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:48:36 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 09:48:36 Failed to retrieve ventris midi
+2023/04/02 09:48:36 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:50:41 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 09:50:41 Failed to retrieve ventris midi
+2023/04/02 09:50:41 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:50:41 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 09:53:59 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 09:53:59 MIDI Output Devices ========================= 
+2023/04/02 09:53:59   
+2023/04/02 09:53:59   Name: 
+2023/04/02 09:53:59   IsDefault: 
+2023/04/02 09:53:59   IsEnabled: 
+2023/04/02 09:53:59   
+2023/04/02 09:53:59   Name: 
+2023/04/02 09:53:59   ID: 
+2023/04/02 09:53:59   IsDefault: 
+2023/04/02 09:53:59   IsEnabled: 
+2023/04/02 09:53:59   
+2023/04/02 09:53:59   Name: 
+2023/04/02 09:53:59   ID: 
+2023/04/02 09:53:59   IsDefault: 
+2023/04/02 09:53:59   IsEnabled: 
+2023/04/02 09:53:59 Failed to retrieve ventris midi
+2023/04/02 09:53:59 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:53:59 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 09:55:14 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 09:55:14 MIDI Output Devices ========================= 
+2023/04/02 09:55:14 PeteBrown.PowerShellMidi.MidiDeviceInformation
+2023/04/02 09:55:14   
+2023/04/02 09:55:14   Name: 
+2023/04/02 09:55:14   ID: 
+2023/04/02 09:55:14   IsDefault: 
+2023/04/02 09:55:14   IsEnabled: 
+2023/04/02 09:55:14   
+2023/04/02 09:55:14   Name: 
+2023/04/02 09:55:14   ID: 
+2023/04/02 09:55:14   IsDefault: 
+2023/04/02 09:55:14   IsEnabled: 
+2023/04/02 09:55:14   
+2023/04/02 09:55:14   Name: 
+2023/04/02 09:55:14   ID: 
+2023/04/02 09:55:14   IsDefault: 
+2023/04/02 09:55:14   IsEnabled: 
+2023/04/02 09:55:14 Failed to retrieve ventris midi
+2023/04/02 09:55:14 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:55:14 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 09:55:51 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 09:55:51 MIDI Output Devices ========================= 
+2023/04/02 09:57:35 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 09:57:35 MIDI Output Devices ========================= 
+2023/04/02 09:57:35 PeteBrown.PowerShellMidi.MidiDeviceInformation
+2023/04/02 09:57:35   
+2023/04/02 09:57:35   Name: 
+2023/04/02 09:57:35   ID: 
+2023/04/02 09:57:35   IsDefault: 
+2023/04/02 09:57:35   IsEnabled: 
+2023/04/02 09:57:35   
+2023/04/02 09:57:35   Name: 
+2023/04/02 09:57:35   ID: 
+2023/04/02 09:57:35   IsDefault: 
+2023/04/02 09:57:35   IsEnabled: 
+2023/04/02 09:57:35   
+2023/04/02 09:57:35   Name: 
+2023/04/02 09:57:35   ID: 
+2023/04/02 09:57:35   IsDefault: 
+2023/04/02 09:57:36   IsEnabled: 
+2023/04/02 09:57:36 Failed to retrieve ventris midi
+2023/04/02 09:57:36 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 09:57:36 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:00:04 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:00:04 MIDI Output Devices ========================= 
+2023/04/02 10:00:04 
+Id                                                                                Name                             IsDe
+                                                                                                                   faul
+                                                                                                                      t
+--                                                                                ----                             ----
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth     ...e
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                             ...e
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0] ...e
+
+
+
+2023/04/02 10:00:04   
+2023/04/02 10:00:04   Name: 
+2023/04/02 10:00:04   ID: 
+2023/04/02 10:00:04   IsDefault: 
+2023/04/02 10:00:04   IsEnabled: 
+2023/04/02 10:00:04   
+2023/04/02 10:00:04   Name: 
+2023/04/02 10:00:04   ID: 
+2023/04/02 10:00:04   IsDefault: 
+2023/04/02 10:00:04   IsEnabled: 
+2023/04/02 10:00:04   
+2023/04/02 10:00:04   Name: 
+2023/04/02 10:00:04   ID: 
+2023/04/02 10:00:04   IsDefault: 
+2023/04/02 10:00:04   IsEnabled: 
+2023/04/02 10:00:04 Failed to retrieve ventris midi
+2023/04/02 10:00:04 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:00:04 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:04:03 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:04:03 MIDI Output Devices ========================= 
+2023/04/02 10:04:03 
+Id                                                                                Name                             IsDefau
+                                                                                                                        lt
+--                                                                                ----                             -------
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth       False
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                               False
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0]   False
+
+
+
+2023/04/02 10:04:03   
+2023/04/02 10:04:03   Name: 
+2023/04/02 10:04:03   ID: 
+2023/04/02 10:04:03   IsDefault: 
+2023/04/02 10:04:03   IsEnabled: 
+2023/04/02 10:04:03   
+2023/04/02 10:04:03   Name: 
+2023/04/02 10:04:03   ID: 
+2023/04/02 10:04:03   IsDefault: 
+2023/04/02 10:04:03   IsEnabled: 
+2023/04/02 10:04:03   
+2023/04/02 10:04:03   Name: 
+2023/04/02 10:04:03   ID: 
+2023/04/02 10:04:03   IsDefault: 
+2023/04/02 10:04:03   IsEnabled: 
+2023/04/02 10:04:03 Failed to retrieve ventris midi
+2023/04/02 10:04:03 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:04:03 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:08:04 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:08:04 MIDI Output Devices ========================= 
+2023/04/02 10:08:04 
+Id                                                                                Name                             IsDefault IsEnabled
+--                                                                                ----                             --------- ---------
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth         False      True
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                                 False      True
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0]     False      True
+
+
+
+2023/04/02 10:08:04   
+2023/04/02 10:08:04   Name: 
+2023/04/02 10:08:04   ID: 
+2023/04/02 10:08:05   IsEnabled: 
+2023/04/02 10:08:05   
+2023/04/02 10:08:05   Name: 
+2023/04/02 10:08:05   ID: 
+2023/04/02 10:08:05   IsDefault: 
+2023/04/02 10:08:05   IsEnabled: 
+2023/04/02 10:08:05   
+2023/04/02 10:08:05   Name: 
+2023/04/02 10:08:05   ID: 
+2023/04/02 10:08:05   IsDefault: 
+2023/04/02 10:08:05   IsEnabled: 
+2023/04/02 10:10:42 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:12:06 MIDI Output Devices ========================= 
+2023/04/02 10:12:06 
+Id                                                                                Name                             IsDefault IsEnabled
+--                                                                                ----                             --------- ---------
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth         False      True
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                                 False      True
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0]     False      True
+
+
+
+2023/04/02 10:12:06   
+2023/04/02 10:12:06   Name: 
+2023/04/02 10:12:06   ID: 
+2023/04/02 10:12:06   IsDefault: 
+2023/04/02 10:12:06   IsEnabled: 
+2023/04/02 10:12:06   
+2023/04/02 10:12:06   Name: 
+2023/04/02 10:12:06   ID: 
+2023/04/02 10:12:06   IsDefault: 
+2023/04/02 10:12:06   IsEnabled: 
+2023/04/02 10:12:06   
+2023/04/02 10:12:06   Name: 
+2023/04/02 10:12:06   ID: 
+2023/04/02 10:12:06   IsDefault: 
+2023/04/02 10:12:07   IsEnabled: 
+2023/04/02 10:12:21 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:12:55 MIDI Output Devices ========================= 
+2023/04/02 10:12:55 
+Id                                                                                Name                             IsDefault IsEnabled
+--                                                                                ----                             --------- ---------
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth         False      True
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                                 False      True
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0]     False      True
+
+
+
+2023/04/02 10:12:55   
+2023/04/02 10:12:55   Name: 
+2023/04/02 10:12:55   ID: 
+2023/04/02 10:12:55   IsDefault: 
+2023/04/02 10:12:55   IsEnabled: 
+2023/04/02 10:12:55   
+2023/04/02 10:12:55   Name: 
+2023/04/02 10:12:55   ID: 
+2023/04/02 10:12:55   IsDefault: 
+2023/04/02 10:12:55   IsEnabled: 
+2023/04/02 10:12:55   
+2023/04/02 10:12:55   Name: 
+2023/04/02 10:12:55   ID: 
+2023/04/02 10:12:55   IsDefault: 
+2023/04/02 10:12:55   IsEnabled: 
+2023/04/02 10:13:41 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:14:14 MIDI Output Devices ========================= 
+2023/04/02 10:14:14 
+Id                                                                                Name                             IsDefault IsEnabled
+--                                                                                ----                             --------- ---------
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth         False      True
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                                 False      True
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0]     False      True
+
+
+
+2023/04/02 10:14:14   
+2023/04/02 10:14:14   Name: 
+2023/04/02 10:14:14   ID: 
+2023/04/02 10:14:14   IsDefault: 
+2023/04/02 10:14:14   IsEnabled: 
+2023/04/02 10:14:14   
+2023/04/02 10:14:14   Name: 
+2023/04/02 10:14:14   ID: 
+2023/04/02 10:14:14   IsDefault: 
+2023/04/02 10:14:14   IsEnabled: 
+2023/04/02 10:14:14   
+2023/04/02 10:14:14   Name: 
+2023/04/02 10:14:14   ID: 
+2023/04/02 10:14:14   IsDefault: 
+2023/04/02 10:14:14   IsEnabled: 
+2023/04/02 10:14:30 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:14:46 MIDI Output Devices ========================= 
+2023/04/02 10:14:46 
+Id                                                                                Name                             IsDefault IsEnabled
+--                                                                                ----                             --------- ---------
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth         False      True
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                                 False      True
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0]     False      True
+
+
+
+2023/04/02 10:14:46   
+2023/04/02 10:14:46   Name: 
+2023/04/02 10:14:46   ID: 
+2023/04/02 10:14:46   IsDefault: 
+2023/04/02 10:14:46   IsEnabled: 
+2023/04/02 10:14:46   
+2023/04/02 10:14:46   Name: 
+2023/04/02 10:14:46   ID: 
+2023/04/02 10:14:46   IsDefault: 
+2023/04/02 10:14:46   IsEnabled: 
+2023/04/02 10:14:46   
+2023/04/02 10:14:46   Name: 
+2023/04/02 10:14:46   ID: 
+2023/04/02 10:14:46   IsDefault: 
+2023/04/02 10:14:46   IsEnabled: 
+2023/04/02 10:15:27 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:15:27 MIDI Output Devices ========================= 
+2023/04/02 10:15:27 
+Id                                                                                Name                             IsDefault IsEnabled
+--                                                                                ----                             --------- ---------
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth         False      True
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                                 False      True
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0]     False      True
+
+
+
+2023/04/02 10:15:27   
+2023/04/02 10:15:27   Name: 
+2023/04/02 10:15:27   ID: 
+2023/04/02 10:15:27   IsDefault: 
+2023/04/02 10:15:27   
+2023/04/02 10:15:27   Name: 
+2023/04/02 10:15:27   ID: 
+2023/04/02 10:15:27   IsDefault: 
+2023/04/02 10:15:27   IsEnabled: 
+2023/04/02 10:15:27   
+2023/04/02 10:15:27   Name: 
+2023/04/02 10:15:27   ID: 
+2023/04/02 10:15:27   IsDefault: 
+2023/04/02 10:15:27   IsEnabled: 
+2023/04/02 10:17:09 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:17:10 MIDI Output Devices ========================= 
+2023/04/02 10:17:11 
+Id                                                                                Name                             IsDefault IsEnabled
+--                                                                                ----                             --------- ---------
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth         False      True
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                                 False      True
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0]     False      True
+
+
+
+2023/04/02 10:17:12   
+2023/04/02 10:17:13   Name: 
+2023/04/02 10:17:14   ID: 
+2023/04/02 10:17:15   IsDefault: 
+2023/04/02 10:17:16   IsEnabled: 
+2023/04/02 10:17:17   
+2023/04/02 10:17:18   Name: 
+2023/04/02 10:17:19   ID: 
+2023/04/02 10:17:20   IsDefault: 
+2023/04/02 10:17:21   IsEnabled: 
+2023/04/02 10:17:22   
+2023/04/02 10:17:23   Name: 
+2023/04/02 10:17:24   ID: 
+2023/04/02 10:17:25   IsDefault: 
+2023/04/02 10:17:26   IsEnabled: 
+2023/04/02 10:19:55 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:19:56 MIDI Output Devices ========================= 
+2023/04/02 10:19:57 
+Id                                                                                Name                             IsDefault IsEnabled
+--                                                                                ----                             --------- ---------
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth         False      True
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                                 False      True
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0]     False      True
+
+
+
+2023/04/02 10:19:58 Name: PeteBrown.PowerShellMidi.MidiDeviceInformation.Name, ID: PeteBrown.PowerShellMidi.MidiDeviceInformation.Id
+2023/04/02 10:19:59 Name: PeteBrown.PowerShellMidi.MidiDeviceInformation.Name, ID: PeteBrown.PowerShellMidi.MidiDeviceInformation.Id
+2023/04/02 10:20:00 Name: PeteBrown.PowerShellMidi.MidiDeviceInformation.Name, ID: PeteBrown.PowerShellMidi.MidiDeviceInformation.Id
+2023/04/02 10:21:18 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:21:19 MIDI Output Devices ========================= 
+2023/04/02 10:21:20 
+Id                                                                                Name                             IsDefault IsEnabled
+--                                                                                ----                             --------- ---------
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth         False      True
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                                 False      True
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0]     False      True
+
+
+
+2023/04/02 10:21:21 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:21:22 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:21:23 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:21:43 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:21:43 MIDI Output Devices ========================= 
+2023/04/02 10:21:43 
+Id                                                                                Name                             IsDefault IsEnabled
+--                                                                                ----                             --------- ---------
+\\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814} Microsoft GS Wavetable Synth         False      True
+\\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     MIDI                                 False      True
+\\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}     One Series Ventris Reverb    [0]     False      True
+
+
+
+2023/04/02 10:21:43 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:21:43 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:21:43 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:22:50 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:22:50 MIDI Output Devices ========================= 
+2023/04/02 10:22:50 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:22:50 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:22:50 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:22:50 Failed to retrieve ventris midi
+2023/04/02 10:22:50 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:22:50 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:23:28 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:23:28 MIDI Output Devices ========================= 
+2023/04/02 10:23:28 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:23:28 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:23:28 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:23:28 Failed to retrieve ventris midi
+2023/04/02 10:23:28 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:23:28 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:24:11 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:24:11 MIDI Output Devices ========================= 
+2023/04/02 10:24:11 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:24:11 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:24:11 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:24:33 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:24:33 MIDI Output Devices ========================= 
+2023/04/02 10:24:33 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:24:33 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:24:33 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:25:24 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:25:24 MIDI Output Devices ========================= 
+2023/04/02 10:25:24 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:25:24 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:25:50 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:25:50 MIDI Output Devices ========================= 
+2023/04/02 10:25:50 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:25:50 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:25:50 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:26:05 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:26:05 MIDI Output Devices ========================= 
+2023/04/02 10:26:05 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:26:05 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:26:05 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:26:17 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:26:18 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:26:18 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:26:18 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:26:18 Failed to retrieve ventris midi
+2023/04/02 10:26:18 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:26:18 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:26:48 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:26:48 MIDI Output Devices ========================= 
+2023/04/02 10:26:48 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:26:48 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:26:48 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:26:48 Failed to retrieve ventris midi
+2023/04/02 10:26:48 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:26:48 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:29:25 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:29:25 MIDI Output Devices ========================= 
+2023/04/02 10:29:25 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:29:25 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:29:25 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:29:25 Failed to retrieve ventris midi
+2023/04/02 10:29:25 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:29:25 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:37:56 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:37:56 MIDI Output Devices ========================= 
+2023/04/02 10:37:56 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:37:56 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:37:56 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:37:56 Failed to retrieve ventris midi
+2023/04/02 10:37:56 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:37:56 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:18 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:38:18 MIDI Output Devices ========================= 
+2023/04/02 10:38:18 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:18 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:18 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:18 Failed to retrieve ventris midi
+2023/04/02 10:38:18 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:38:18 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:34 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:38:34 MIDI Output Devices ========================= 
+2023/04/02 10:38:34 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:34 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:34 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:34 Failed to retrieve ventris midi
+2023/04/02 10:38:34 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:38:34 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:54 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:38:54 MIDI Output Devices ========================= 
+2023/04/02 10:38:54 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:54 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:54 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:38:55 Failed to retrieve ventris midi
+2023/04/02 10:38:55 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:38:55 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:39:38 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:39:38 MIDI Output Devices ========================= 
+2023/04/02 10:39:38 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:39:38 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:39:38 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:39:38 Failed to retrieve ventris midi
+2023/04/02 10:39:38 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:39:38 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:40:11 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:40:11 MIDI Output Devices ========================= 
+2023/04/02 10:40:11 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:40:11 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:40:11 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:40:26 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:40:26 MIDI Output Devices ========================= 
+2023/04/02 10:40:26 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:40:26 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:40:26 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:40:45 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:40:45 MIDI Output Devices ========================= 
+2023/04/02 10:40:45 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:40:45 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:40:45 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:40:45 Failed to retrieve ventris midi
+2023/04/02 10:40:45 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:40:45 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:41:01 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:41:02 MIDI Output Devices ========================= 
+2023/04/02 10:41:02 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:41:02 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:41:02 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:41:02 Failed to retrieve ventris midi
+2023/04/02 10:41:02 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:41:02 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:41:13 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:41:13 MIDI Output Devices ========================= 
+2023/04/02 10:41:13 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:41:13 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:41:13 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:41:13 Failed to retrieve ventris midi
+2023/04/02 10:41:13 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:41:13 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:41:34 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:41:34 MIDI Output Devices ========================= 
+2023/04/02 10:41:34 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:41:34 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:41:34 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:46:07 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:46:07 MIDI Output Devices ========================= 
+2023/04/02 10:46:07 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:46:07 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:46:07 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:46:07 Failed to retrieve ventris midi
+2023/04/02 10:46:07 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:46:07 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:46:49 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:46:50 MIDI Output Devices ========================= 
+2023/04/02 10:46:50 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:46:50 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:46:50 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:46:50 Failed to retrieve ventris midi
+2023/04/02 10:46:50 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:46:50 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:53:52 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:53:52 MIDI Output Devices ========================= 
+2023/04/02 10:53:52 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:53:52 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:53:52 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:53:52 MIDI Input Devices ========================= 
+2023/04/02 10:53:52 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:53:52 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:55:20 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:55:20 MIDI Output Devices ========================= 
+2023/04/02 10:55:20 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:55:20 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:55:20 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:55:20 MIDI Input Devices ========================= 
+2023/04/02 10:55:20 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:55:20 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:55:28 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:55:28 MIDI Output Devices ========================= 
+2023/04/02 10:55:28 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:55:28 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:55:28 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:55:28 MIDI Input Devices ========================= 
+2023/04/02 10:55:28 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:55:28 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:56:39 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:56:39 MIDI Output Devices ========================= 
+2023/04/02 10:56:39 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:56:39 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:56:39 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:56:39 MIDI Input Devices ========================= 
+2023/04/02 10:56:39 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:56:39 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:56:39 Failed to send midi cc
+2023/04/02 10:56:39 Incorrect function. (Exception from HRESULT: 0x80070001)
+2023/04/02 10:57:21 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:57:21 MIDI Output Devices ========================= 
+2023/04/02 10:57:21 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:57:21 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:57:21 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:57:21 MIDI Input Devices ========================= 
+2023/04/02 10:57:21 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:57:21 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:57:21 Failed to retrieve ventris midi
+2023/04/02 10:57:21 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 10:57:21 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:58:55 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:58:55 MIDI Output Devices ========================= 
+2023/04/02 10:58:55 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:58:55 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:58:55 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:58:55 MIDI Input Devices ========================= 
+2023/04/02 10:58:55 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:58:55 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:59:18 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 10:59:18 MIDI Output Devices ========================= 
+2023/04/02 10:59:18 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:59:18 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:59:18 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 10:59:18 MIDI Input Devices ========================= 
+2023/04/02 10:59:18 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 10:59:18 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:00:41 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 11:00:41 MIDI Output Devices ========================= 
+2023/04/02 11:00:41 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:00:41 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:00:41 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:00:41 MIDI Input Devices ========================= 
+2023/04/02 11:00:41 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:00:42 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:09:19 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 11:09:19 MIDI Output Devices ========================= 
+2023/04/02 11:09:19 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:09:19 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:09:20 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:09:20 MIDI Input Devices ========================= 
+2023/04/02 11:09:20 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:09:20 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:09:20 Failed to retrieve ventris midi
+2023/04/02 11:09:20 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 11:09:20 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:17:58 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 11:17:58 MIDI Output Devices ========================= 
+2023/04/02 11:17:58 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:17:58 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:17:58 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:17:58 MIDI Input Devices ========================= 
+2023/04/02 11:17:58 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:17:58 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:17:58 Failed to send midi cc
+2023/04/02 11:17:58 Incorrect function. (Exception from HRESULT: 0x80070001)
+2023/04/02 11:18:35 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 11:18:35 MIDI Output Devices ========================= 
+2023/04/02 11:18:35 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:18:35 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:18:35 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:18:35 MIDI Input Devices ========================= 
+2023/04/02 11:18:35 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:18:35 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:18:35 Failed to send midi cc
+2023/04/02 11:18:35 Incorrect function. (Exception from HRESULT: 0x80070001)
+2023/04/02 11:29:00 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 11:29:00 MIDI Output Devices ========================= 
+2023/04/02 11:29:00 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:29:00 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:29:00 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:29:00 MIDI Input Devices ========================= 
+2023/04/02 11:29:00 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:29:00 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:29:00 Failed to send midi cc
+2023/04/02 11:29:00 Incorrect function. (Exception from HRESULT: 0x80070001)
+2023/04/02 11:29:23 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 11:29:23 MIDI Output Devices ========================= 
+2023/04/02 11:29:23 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:29:23 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:29:23 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:29:23 MIDI Input Devices ========================= 
+2023/04/02 11:29:23 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:29:23 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:29:23 Failed to send midi cc
+2023/04/02 11:29:23 Incorrect function. (Exception from HRESULT: 0x80070001)
+2023/04/02 11:29:44 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 11:29:44 MIDI Output Devices ========================= 
+2023/04/02 11:29:44 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:29:44 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:29:44 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:29:44 MIDI Input Devices ========================= 
+2023/04/02 11:29:44 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:29:44 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:29:44 Failed to send midi cc
+2023/04/02 11:29:44 Incorrect function. (Exception from HRESULT: 0x80070001)
+2023/04/02 11:30:34 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 11:30:34 MIDI Output Devices ========================= 
+2023/04/02 11:30:34 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:30:34 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:30:34 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:30:34 MIDI Input Devices ========================= 
+2023/04/02 11:30:34 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:30:34 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:30:35 Failed to retrieve ventris midi
+2023/04/02 11:30:35 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 11:30:35 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:30:50 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 11:30:50 MIDI Output Devices ========================= 
+2023/04/02 11:30:50 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:30:50 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:30:50 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:30:50 MIDI Input Devices ========================= 
+2023/04/02 11:30:50 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:30:50 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:30:50 Failed to retrieve ventris midi
+2023/04/02 11:30:50 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 11:30:50 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:33:05 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 11:33:05 MIDI Output Devices ========================= 
+2023/04/02 11:33:05 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:33:05 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:33:05 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:33:05 MIDI Input Devices ========================= 
+2023/04/02 11:33:05 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:33:05 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:33:22 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 11:33:22 MIDI Output Devices ========================= 
+2023/04/02 11:33:22 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:33:22 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:33:22 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:33:22 MIDI Input Devices ========================= 
+2023/04/02 11:33:22 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:33:22 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:33:22 Failed to retrieve ventris midi
+2023/04/02 11:33:22 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 11:33:22 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:34:20 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 11:34:20 MIDI Output Devices ========================= 
+2023/04/02 11:34:20 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:34:20 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:34:20 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:34:20 MIDI Input Devices ========================= 
+2023/04/02 11:34:20 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:34:20 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:34:20 Failed to retrieve ventris midi
+2023/04/02 11:34:20 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/02 11:34:20 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:34:48 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 11:34:49 MIDI Output Devices ========================= 
+2023/04/02 11:34:49 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:34:49 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:34:49 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:34:49 MIDI Input Devices ========================= 
+2023/04/02 11:34:49 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:34:49 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:39:04 Received request: ModDepth to 58 - Sending CC: 9,58
+2023/04/02 11:39:04 MIDI Output Devices ========================= 
+2023/04/02 11:39:04 Name: Microsoft GS Wavetable Synth, ID: \\?\SWD#MMDEVAPI#MicrosoftGSWavetableSynth#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:39:04 Name: MIDI, ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:39:04 Name: One Series Ventris Reverb    [0], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/02 11:39:04 MIDI Input Devices ========================= 
+2023/04/02 11:39:04 Name: One Series Ventris Reverb    [1], ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0001#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:39:04 Name: Focusrite USB MIDI [1], ID: \\?\SWD#MMDEVAPI#MIDII_83186C80.P_0004#{504be32c-ccf6-4d2c-b73f-6f8b3747e22b}
+2023/04/02 11:52:05 Received request: ModDepth to 58 - Sending CC: 9,58
+2023/04/02 11:52:12 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 11:55:19 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 11:56:02 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 12:00:06 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 12:02:07 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 12:02:41 Received request: Bass to 127 - Sending CC: 7,127
+2023/04/02 12:02:49 Received request: Bass to 127 - Sending CC: 7,127
+2023/04/02 12:02:58 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 12:03:05 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/02 13:43:42 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 13:43:59 Received request: Bass to 127 - Sending CC: 7,127
+2023/04/02 13:44:11 Received request: Bass to 127 - Sending CC: 7,127
+2023/04/02 14:46:37 Received request: Bass to 115 - Sending CC: 7,115
+2023/04/02 14:48:51 Received request: Bass to 115 - Sending CC: 7,115
+2023/04/02 14:50:44 Received request: Bass to 115 - Sending CC: 7,115
+2023/04/02 14:54:43 Received request: Bass to 115 - Sending CC: 7,115
+2023/04/02 14:58:46 Received request: engine to swell - Sending CC: 1,9
+2023/04/02 14:58:58 Received request: engine to dome - Sending CC: 1,2
+2023/04/02 14:59:12 Received request: engine to offspring - Sending CC: 1,10
+2023/04/02 15:05:28 Received request: time to 127 - Sending CC: 2,127
+2023/04/02 15:06:55 Received request: delay to 127 - Sending CC: 4,127
+2023/04/02 15:09:55 Received request: ModDepth to 23 - Sending CC: 9,23
+2023/04/02 15:10:23 Received request: ModDepth to 127 - Sending CC: 9,127
+2023/04/02 15:10:33 Received request: delay to 12 - Sending CC: 4,12
+2023/04/02 15:34:45 Received request: engine to spring - Sending CC: 1,3
+2023/04/02 15:35:37 Received request: engine to spring - Sending CC: 1,3
+2023/04/02 15:36:33 Received request: delay to 81 - Sending CC: 4,81
+2023/04/02 15:36:51 Received request: delay to 23 - Sending CC: 4,23
+2023/04/02 15:36:57 Received request: Bass to 23 - Sending CC: 7,23
+2023/04/02 15:43:53 Received request: delay to 35 - Sending CC: 4,35
+2023/04/02 15:44:03 Received request: Bass to 35 - Sending CC: 7,35
+2023/04/02 15:44:11 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 15:45:07 Received request: engine to modverb - Sending CC: 1,6
+2023/04/02 15:45:16 Received request: engine to echoverb - Sending CC: 1,8
+2023/04/02 15:50:00 Received request: delay to 115 - Sending CC: 4,115
+2023/04/02 15:51:28 Received request: delay to 58 - Sending CC: 4,58
+2023/04/02 15:51:49 Received request: delay to 127 - Sending CC: 4,127
+2023/04/02 15:52:02 Received request: time to 12 - Sending CC: 2,12
+2023/04/02 15:52:21 Received request: time to 127 - Sending CC: 2,127
+2023/04/02 15:54:27 Received request: time to 58 - Sending CC: 2,58
+2023/04/02 15:54:35 Received request: time to 35 - Sending CC: 2,35
+2023/04/02 15:54:49 Received request: Crossfade to 81 - Sending CC: 19,81

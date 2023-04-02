@@ -22,25 +22,25 @@ public class CPHInline
     public bool ValidateEngine(string newValue, string[] valueList, string action){
         var validated = false;
         int pos = Array.IndexOf(valueList, newValue);
-        if (pos > -1 & action == "!engine")
+        if (pos > -1 & action == "engine")
         {
             validated = true;
         }
 		return validated;
     }
-    public string Transform(string newValue){
+    public Tuple<string,string> Transform(string newValue){
         int transVal = Int32.Parse(newValue);
         if (transVal > 11)
         {
-            return "127";
+            return Tuple.Create("11","127");
         }
         if(transVal < 0){
-            return "0";
+            return Tuple.Create("0","0");
         }
         double tranRatio = 127.0/11.0;
 		var trannum = transVal*tranRatio;
 		var tranint = Convert.ToInt32(trannum);
-        return tranint.ToString();
+        return Tuple.Create(transVal.ToString(),tranint.ToString());
     }
     public bool Execute()
     {
@@ -54,9 +54,8 @@ public class CPHInline
             }
             if (arg.Key == "actionName")
             {
-                botAction = $"{arg.Value}";
+                botAction = $"{arg.Value}".TrimStart('!');
                 CPH.SetGlobalVar("parameter", botAction);
-                CPH.SetGlobalVar("engine", "room");///////////////////////////////////
             }
         }
 
@@ -69,13 +68,24 @@ public class CPHInline
 
         if (inNumeric)
         {
-            var tranNum = Transform(rawIn);
+            var validatedInput = "True";
+            (string obsnum, string tranNum) = Transform(rawIn);
             CPH.LogInfo($"Transform :: {tranNum}");
+            CPH.SetGlobalVar("validated", validatedInput);
+            CPH.LogInfo($"Validated input :: {validatedInput}");
             CPH.SetGlobalVar("value", tranNum);
+            CPH.SetGlobalVar("obsval", obsnum);
         }else
         {
-            
-            CPH.LogInfo($"Validated :: {ValidateEngine(rawIn,engines,botAction)}");
+            var validEngine = ValidateEngine(rawIn,engines,botAction);
+            CPH.LogInfo($"Input validated as engine :: {validEngine}");
+            CPH.SetGlobalVar("validated", validEngine);
+            if (validEngine)
+            {
+                CPH.SetGlobalVar("obsval", rawIn);
+                CPH.SetGlobalVar("value", rawIn);
+                CPH.SetGlobalVar("engine", rawIn);
+            }
         }
 
         return true;

@@ -16,6 +16,7 @@ function WriteLog
 	$Stamp = (Get-Date).toString("yyyy/MM/dd HH:mm:ss")
 	$LogMessage = "$Stamp $LogString"
 	Add-content $LogFile -value $LogMessage
+    Start-Sleep .05
 }
 
 ############################################## Import Modules
@@ -47,6 +48,12 @@ try {
 				$ventrisValue = $ventrisMap.ParameterValue.$value.Value
 			} elseif ($parameter -in @("control1", "control2" )) {
 				$parameter = $ventrisMap.ParameterValue.$engine.$parameter
+				$transformValue = $ventrisMap.ParameterCC.$parameter.MAX -lt 127;
+				if ($transformValue) {
+					$transformMax = $ventrisMap.ParameterCC.$parameter.MAX
+					$ventrisValue = [int]($value/127*$transformMax)
+					WriteLog "Transforming $value out of 127 to $ventrisValue out of $transformMax"
+				}
 			}
 			$ventrisCC = $ventrisMap.ParameterCC.$parameter.CC
 			
@@ -77,42 +84,31 @@ catch {
 ############################################## Retrieve Ventris Midi Object
 Write-Host "Retrieve midi devices"
 try {
-	$inputDevices = Get-MidiInputDeviceInformation
 	$outputDevices = Get-MidiOutputDeviceInformation
+	$inputDevices = Get-MidiInputDeviceInformation
 
 	if ($Debug) {
-		Write-Host "  "
-		Write-Host "MIDI Input Devices ========================= " -ForegroundColor Cyan
-		foreach ($device in $inputDevices)
-		{
-			Write-Host "  "
-			Write-Host "  Name: " -NoNewline -ForegroundColor DarkGray; Write-Host $device.Name  -ForegroundColor Red
-			Write-Host "  ID: " -NoNewline -ForegroundColor DarkGray; Write-Host $device.Id  -ForegroundColor Red
-			Write-Host "  IsDefault: " -NoNewline -ForegroundColor DarkGray; Write-Host $device.IsDefault  -ForegroundColor Red
-			Write-Host "  IsEnabled: " -NoNewline -ForegroundColor DarkGray; Write-Host $device.IsEnabled  -ForegroundColor Red
-		}
-
-		Write-Host "  "
-		Write-Host "MIDI Output Devices ========================= " -ForegroundColor Cyan
-
+		WriteLog "MIDI Output Devices ========================= "
 		foreach ($device in $outputDevices)
 		{
-			Write-Host "  "
-			Write-Host "  Name: " -NoNewline -ForegroundColor DarkGray; Write-Host $device.Name  -ForegroundColor Red
-			Write-Host "  ID: " -NoNewline -ForegroundColor DarkGray; Write-Host $device.Id  -ForegroundColor Red
-			Write-Host "  IsDefault: " -NoNewline -ForegroundColor DarkGray; Write-Host $device.IsDefault  -ForegroundColor Red
-			Write-Host "  IsEnabled: " -NoNewline -ForegroundColor DarkGray; Write-Host $device.IsEnabled  -ForegroundColor Red
+			WriteLog "Name: $($device.Name), ID: $($device.Id)"
+		}
+		WriteLog "MIDI Input Devices ========================= "
+		foreach ($device in $inputDevices)
+		{
+			WriteLog "Name: $($device.Name), ID: $($device.Id)"
 		}
 	}
 
-	$ventrisMidi = $outputDevices | Where-Object {$_.NAME -like "*One Series Ventris Reverb*"}
-	$ventrisId = $ventrisMidi.ID
+	$ventrisMidi = $outputDevices | Where-Object {$_.Name -like "*One Series Ventris Reverb*"}
+	$ventrisId = $ventrisMidi.Id
 	$outputPort = Get-MidiOutputPort -id $ventrisId
 	Write-Host "Ventris ID: $($ventrisId)"
 }
 catch {
 	WriteLog "Failed to retrieve ventris midi"
 	WriteLog $_
+	WriteLog "Ventris ID: $($ventrisId)"
 	exit
 }
 
