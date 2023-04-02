@@ -13,9 +13,15 @@ namespace PeteBrown.PowerShellMidi
     [Cmdlet(VerbsCommon.Get, "MidiOutputDeviceInformation")]
     public class GetMidiOutputDeviceInformation : AsyncPSCmdlet
     {
+        public List<MidiDeviceInformation> Devices { get
+            {
+                return _devices;
+            }
+        }
+
         private List<MidiDeviceInformation> _devices;
 
-        private async Task LoadInputDevicesAsync()
+        public async Task LoadInputDevicesAsync()
         {
             WriteDebug("Entering LoadInputDevicesAsync");
 
@@ -64,5 +70,9 @@ namespace PeteBrown.PowerShellMidi
 
         }
 
+        public GetMidiOutputDeviceInformation()
+        {
+            
+        }
     }
 }

@@ -1,16 +1,16 @@
 {
 	"ParameterCC" :  {
-		"Engine": {
+		"engine": {
 			"CC": 1,
 			"MIN": 0,
 			"MAX": 11
 		},
-		"Time": {
+		"time": {
 			"CC": 2,
 			"MIN": 0,
 			"MAX": 127
 		},
-		"PreDelay": {
+		"delay": {
 			"CC": 4,
 			"MIN": 0,
 			"MAX": 127
@@ -92,65 +92,65 @@
 		}
     },
 	"ParameterValue" :  {
-		"Room": {
+		"room": {
 			"Value": 0,
-			"Control1": "Bass",
-			"Control2": "ModDepth"
+			"control1": "Bass",
+			"control2": "ModDepth"
 		},
-		"Hall": {
+		"hall": {
 			"Value": 1,
-			"Control1": "Bass",
-			"Control2": "HallSize"
+			"control1": "Bass",
+			"control2": "HallSize"
 		},
-		"EDome": {
+		"dome": {
 			"Value": 2,
-			"Control1": "Bass",
-			"Control2": "ModDepth"
+			"control1": "Bass",
+			"control2": "ModDepth"
 		},
-		"TrueSpring": {
+		"spring": {
 			"Value": 3,
-			"Control1": "Bass",
-			"Control2": "SpringLength"
+			"control1": "Bass",
+			"control2": "SpringLength"
 		},
-		"Plate": {
+		"plate": {
 			"Value": 4,
-			"Control1": "Bass",
-			"Control2": "PlateSize"
+			"control1": "Bass",
+			"control2": "PlateSize"
 		},
-		"LoFi": {
+		"lofi": {
 			"Value": 5,
-			"Control1": "Distortion",
-			"Control2": "ModDepth"
+			"control1": "Distortion",
+			"control2": "ModDepth"
 		},
-		"Modverb": {
+		"modverb": {
 			"Value": 6,
-			"Control1": "TremeloDepth",
-			"Control2": "TremeloRate"
+			"control1": "TremeloDepth",
+			"control2": "TremeloRate"
 		},
-		"Shimmer": {
+		"shimmer": {
 			"Value": 7,
-			"Control1": "ShimmerCrossfade",
-			"Control2": "Regeneration"
+			"control1": "ShimmerCrossfade",
+			"control2": "Regeneration"
 		},
-		"Echoverb": {
+		"echoverb": {
 			"Value": 8,
-			"Control1": "DelayFeedback",
-			"Control2": "Crossfade"
+			"control1": "DelayFeedback",
+			"control2": "Crossfade"
 		},
-		"Swell": {
+		"swell": {
 			"Value": 9,
-			"Control1": "EnvelopeGain",
-			"Control2": "SwellTime"
+			"control1": "EnvelopeGain",
+			"control2": "SwellTime"
 		},
-		"Offspring": {
+		"offspring": {
 			"Value": 10,
-			"Control1": "Bass",
-			"Control2": "ModDepth"
+			"control1": "Bass",
+			"control2": "ModDepth"
 		},
-		"Reverse": {
+		"reverse": {
 			"Value": 11,
-			"Control1": "Diffusion",
-			"Control2": "ModDepth"
+			"control1": "Diffusion",
+			"control2": "ModDepth"
 		}
 	}
 }

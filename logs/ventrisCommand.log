@@ -1,0 +1,104 @@
+2023/03/20 08:49:36 Received request: Set Engine to TrueSpring - Sending CC: 1,3
+2023/03/20 08:49:36 Retrieve midi devices
+2023/03/20 08:49:36 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/03/20 08:49:36 Send CC Message to Ventris
+2023/03/21 07:53:31 Received request: Set Time to 10 - Sending CC: 2,10
+2023/03/21 07:55:34 Received request: Set Engine to EDome - Sending CC: 1,2
+2023/03/21 07:55:44 Received request: Set Engine to room - Sending CC: 1,0
+2023/03/21 07:55:44 Received request: Set Delay to 10 - Sending CC: ,10
+2023/03/21 07:55:44 Received request: Set Time to 10 - Sending CC: 2,10
+2023/03/21 07:55:44 Received request: Set SpringLength to 50 - Sending CC: 13,50
+2023/03/21 08:00:24 Received request: Set Delay to 10 - Sending CC: ,10
+2023/03/21 08:00:24 Received request: Set Time to 10 - Sending CC: 2,10
+2023/03/21 08:00:24 Received request: Set Engine to room - Sending CC: 1,0
+2023/03/21 08:00:24 Received request: Set ModDepth to 50 - Sending CC: 9,50
+2023/03/21 08:04:14 Received request: Set Engine to room - Sending CC: 1,0
+2023/03/21 08:04:14 Received request: Set Delay to 10 - Sending CC: ,10
+2023/03/21 08:04:14 Received request: Set Bass to 50 - Sending CC: 7,50
+2023/03/21 08:04:14 Received request: Set Time to 10 - Sending CC: 2,10
+2023/03/21 08:04:14 Received request: Set ModDepth to 50 - Sending CC: 9,50
+2023/03/21 08:04:14 Failed to send midi cc
+2023/03/21 08:04:14 Cannot bind argument to parameter 'Controller' because it is null.
+2023/03/21 08:04:14 Failed to retrieve ventris midi
+2023/03/21 08:04:14 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/03/21 08:04:14 Failed to send midi cc
+2023/03/21 08:04:14 Cannot bind argument to parameter 'Port' because it is null.
+2023/03/21 08:04:14 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/03/21 08:04:14 Failed to send midi cc
+2023/03/21 08:04:14 Cannot bind argument to parameter 'Port' because it is null.
+2023/03/21 08:04:14 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/03/21 08:04:14 Failed to send midi cc
+2023/03/21 08:04:14 Cannot bind argument to parameter 'Port' because it is null.
+2023/03/21 08:11:43 Received request: Set Engine to room - Sending CC: 1,0
+2023/03/21 08:11:43 Received request: Set PreDelay to 10 - Sending CC: 4,10
+2023/03/21 08:11:43 Received request: Set Time to 10 - Sending CC: 2,10
+2023/03/21 08:11:43 Received request: Set Bass to 50 - Sending CC: 7,50
+2023/03/21 08:11:43 Received request: Set ModDepth to 50 - Sending CC: 9,50
+2023/03/21 08:11:43 Failed to retrieve ventris midi
+2023/03/21 08:11:43 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/03/21 08:11:43 Failed to send midi cc
+2023/03/21 08:11:43 Failed to retrieve ventris midi
+2023/03/21 08:11:43 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/03/21 08:11:43 Failed to send midi cc
+2023/03/21 08:11:43 Cannot bind argument to parameter 'Port' because it is null.
+2023/03/21 08:14:01 Received request: Set Bass to 50 - Sending CC: 7,50
+2023/03/21 08:14:01 Received request: Set Engine to room - Sending CC: 1,0
+2023/03/21 08:14:01 Received request: Set PreDelay to 10 - Sending CC: 4,10
+2023/03/21 08:14:01 Received request: Set Time to 10 - Sending CC: 2,10
+2023/03/21 08:14:01 Received request: Set ModDepth to 50 - Sending CC: 9,50
+2023/03/21 08:14:01 Failed to retrieve ventris midi
+2023/03/21 08:14:01 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/03/21 08:14:01 Failed to send midi cc
+2023/03/21 08:14:01 Cannot bind argument to parameter 'Port' because it is null.
+2023/03/21 08:14:01 Failed to retrieve ventris midi
+2023/03/21 08:14:01 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/03/21 08:14:01 Failed to send midi cc
+2023/03/21 08:14:01 Cannot bind argument to parameter 'Port' because it is null.
+2023/03/21 08:15:16 Received request: Set Engine to room - Sending CC: 1,0
+2023/03/21 08:15:17 Received request: Set Bass to 50 - Sending CC: 7,50
+2023/03/21 08:15:18 Received request: Set ModDepth to 50 - Sending CC: 9,50
+2023/03/21 08:15:19 Received request: Set Time to 10 - Sending CC: 2,10
+2023/03/21 08:15:20 Received request: Set PreDelay to 10 - Sending CC: 4,10
+2023/03/21 08:16:49 Received request: Set Engine to room - Sending CC: 1,0
+2023/03/21 08:16:50 Received request: Set Bass to 50 - Sending CC: 7,50
+2023/03/21 08:16:51 Received request: Set ModDepth to 50 - Sending CC: 9,50
+2023/03/21 08:16:52 Received request: Set Time to 10 - Sending CC: 2,10
+2023/03/21 08:16:53 Received request: Set PreDelay to 10 - Sending CC: 4,10
+2023/04/02 08:28:50 Received request:  to 58 - Sending CC: ,58
+2023/04/02 08:28:50 Failed to generate requests from manifest file
+2023/04/02 08:28:50 Exception calling "Add" with "1" argument(s): "Collection was of a fixed size."
+2023/04/02 08:29:52 Received request:  to 58 - Sending CC: ,58
+2023/04/02 08:29:52 Failed to send midi cc
+2023/04/02 08:29:52 Cannot bind argument to parameter 'Controller' because it is null.
+2023/04/02 08:32:48 Received request:  to 58 - Sending CC: ,58
+2023/04/02 08:32:48 Failed to send midi cc
+2023/04/02 08:32:48 Cannot bind argument to parameter 'Controller' because it is null.
+2023/04/02 08:34:10 Received request:  to 58 - Sending CC: ,58
+2023/04/02 08:38:11 Received request: control1 to 58 - Sending CC: ,58
+2023/04/02 08:38:49 Received request: control1 to 58 - Sending CC: ,58
+2023/04/02 08:38:49 Failed to send midi cc
+2023/04/02 08:38:49 Cannot bind argument to parameter 'Controller' because it is null.
+2023/04/02 08:39:21 Received request: control1 to 58 - Sending CC: ,58
+2023/04/02 08:39:58 Received request: control1 to 58 - Sending CC: ,58
+2023/04/02 08:40:20 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/02 09:17:54 Received request: Bass to 25 - Sending CC: 7,25
+2023/04/02 09:17:54 Received request: control2 to 25 - Sending CC: ,25
+2023/04/02 09:17:54 Received request: engine to room - Sending CC: 1,0
+2023/04/02 09:17:54 Failed to send midi cc
+2023/04/02 09:17:54 Cannot bind argument to parameter 'Controller' because it is null.
+2023/04/02 09:19:38 Received request: Bass to 25 - Sending CC: 7,25
+2023/04/02 09:19:38 Received request: control2 to 25 - Sending CC: ,25
+2023/04/02 09:19:38 Received request: engine to room - Sending CC: 1,0
+2023/04/02 09:19:38 Failed to send midi cc
+2023/04/02 09:19:38 Cannot bind argument to parameter 'Controller' because it is null.
+2023/04/02 09:20:49 Received request: Bass to 25 - Sending CC: 7,25
+2023/04/02 09:21:43 Received request: Bass to 25 - Sending CC: 7,25
+2023/04/02 09:21:43 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/02 09:21:43 Received request: engine to room - Sending CC: 1,0
