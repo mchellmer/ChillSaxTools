@@ -911,3 +911,191 @@ Parameter name: Id
 2023/04/02 15:54:27 Received request: time to 58 - Sending CC: 2,58
 2023/04/02 15:54:35 Received request: time to 35 - Sending CC: 2,35
 2023/04/02 15:54:49 Received request: Crossfade to 81 - Sending CC: 19,81
+2023/04/03 18:05:07 Received request: engine to offspring - Sending CC: 1,10
+2023/04/03 18:08:09 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/03 18:08:37 Received request: ModDepth to 127 - Sending CC: 9,127
+2023/04/03 18:09:04 Received request: delay to 0 - Sending CC: 4,0
+2023/04/03 18:09:16 Received request: time to 0 - Sending CC: 2,0
+2023/04/03 18:11:12 Received request: Bass to 0 - Sending CC: 7,0
+2023/04/03 18:11:20 Received request: ModDepth to 0 - Sending CC: 9,0
+2023/04/03 18:11:55 Received request: engine to dome - Sending CC: 1,2
+2023/04/03 18:12:58 Received request: delay to 58 - Sending CC: 4,58
+2023/04/03 18:18:03 Received request: time to 35 - Sending CC: 2,35
+2023/04/03 18:19:48 Received request: Bass to 58 - Sending CC: 7,58
+2023/04/03 18:23:10 Received request: ModDepth to 58 - Sending CC: 9,58
+2023/04/03 18:23:45 Received request: engine to lofi - Sending CC: 1,5
+2023/04/03 18:24:05 Received request: delay to 46 - Sending CC: 4,46
+2023/04/03 18:24:17 Received request: time to 92 - Sending CC: 2,92
+2023/04/03 18:24:52 Received request: Distortion to 58 - Sending CC: 15,58
+2023/04/03 18:28:04 Received request: engine to spring - Sending CC: 1,3
+2023/04/03 18:28:20 Received request: delay to 46 - Sending CC: 4,46
+2023/04/03 18:28:38 Received request: time to 58 - Sending CC: 2,58
+2023/04/03 18:29:15 Received request: delay to 127 - Sending CC: 4,127
+2023/04/03 18:29:55 Transforming 127 out of 127 to 6 out of 6
+2023/04/03 18:29:55 Received request: SpringLength to 127 - Sending CC: 13,6
+2023/04/03 18:31:47 Received request: time to 127 - Sending CC: 2,127
+2023/04/03 18:34:13 Received request: engine to swell - Sending CC: 1,9
+2023/04/03 18:35:27 Received request: delay to 35 - Sending CC: 4,35
+2023/04/03 18:35:31 Received request: time to 35 - Sending CC: 2,35
+2023/04/03 18:35:36 Received request: EnvelopeGain to 35 - Sending CC: 15,35
+2023/04/03 18:35:41 Received request: SwellTime to 35 - Sending CC: 16,35
+2023/04/03 20:42:27 Received request: time to 127 - Sending CC: 2,127
+2023/04/03 20:42:28 Failed to retrieve ventris midi
+2023/04/03 20:42:28 Cannot bind argument to parameter 'Id' because it is null.
+2023/04/03 20:42:28 Ventris ID: 
+2023/04/04 18:37:59 Received request: engine to modverb - Sending CC: 1,6
+2023/04/05 08:02:12 Received request: engine to room - Sending CC: 1,0
+2023/04/05 08:02:12 Received request: Bass to 60 - Sending CC: 7,60
+2023/04/05 08:02:12 Received request: ModDepth to 40 - Sending CC: 9,40
+2023/04/05 08:02:12 Received request: delay to 30 - Sending CC: 4,30
+2023/04/05 08:02:12 Received request: time to 40 - Sending CC: 2,40
+2023/04/05 08:02:12 Failed to retrieve ventris midi
+2023/04/05 08:02:12 Cannot bind argument to parameter 'Id' because it is null.
+2023/04/05 08:02:12 Ventris ID: 
+2023/04/05 08:02:26 Received request: engine to room - Sending CC: 1,0
+2023/04/05 08:02:26 Received request: Bass to 60 - Sending CC: 7,60
+2023/04/05 08:02:26 Received request: ModDepth to 40 - Sending CC: 9,40
+2023/04/05 08:02:26 Received request: delay to 30 - Sending CC: 4,30
+2023/04/05 08:02:27 Received request: time to 40 - Sending CC: 2,40
+2023/04/05 08:03:51 Received request: engine to room - Sending CC: 1,0
+2023/04/05 08:03:51 Received request: Bass to 60 - Sending CC: 7,60
+2023/04/05 08:03:51 Received request: ModDepth to 40 - Sending CC: 9,40
+2023/04/05 08:03:51 Received request: delay to 30 - Sending CC: 4,30
+2023/04/05 08:03:51 Received request: time to 40 - Sending CC: 2,40
+2023/04/05 08:04:55 Received request: engine to modverb - Sending CC: 1,6
+2023/04/05 08:05:03 Received request: engine to room - Sending CC: 1,0
+2023/04/05 08:05:03 Received request: Bass to 60 - Sending CC: 7,60
+2023/04/05 08:05:03 Received request: ModDepth to 40 - Sending CC: 9,40
+2023/04/05 08:05:03 Received request: delay to 30 - Sending CC: 4,30
+2023/04/05 08:05:03 Received request: time to 40 - Sending CC: 2,40
+2023/04/05 08:06:05 Received request: engine to room - Sending CC: 1,0
+2023/04/05 08:06:05 Received request: Bass to 60 - Sending CC: 7,60
+2023/04/05 08:06:05 Received request: ModDepth to 40 - Sending CC: 9,40
+2023/04/05 08:06:05 Received request: delay to 30 - Sending CC: 4,30
+2023/04/05 08:06:05 Received request: time to 40 - Sending CC: 2,40
+2023/04/05 08:29:55 Received request: engine to room - Sending CC: 1,0
+2023/04/05 08:29:55 Received request: Bass to 60 - Sending CC: 7,60
+2023/04/05 08:29:55 Received request: ModDepth to 40 - Sending CC: 9,40
+2023/04/05 08:29:55 Received request: delay to 30 - Sending CC: 4,30
+2023/04/05 08:29:55 Received request: time to 40 - Sending CC: 2,40
+2023/04/06 18:14:52 Received request: engine to room - Sending CC: 1,0
+2023/04/06 18:14:52 Received request: Bass to 60 - Sending CC: 7,60
+2023/04/06 18:14:52 Received request: ModDepth to 40 - Sending CC: 9,40
+2023/04/06 18:14:52 Received request: delay to 30 - Sending CC: 4,30
+2023/04/06 18:14:52 Received request: time to 40 - Sending CC: 2,40
+2023/04/06 18:15:15 Received request: engine to hall - Sending CC: 1,1
+2023/04/06 18:15:28 Received request: delay to 46 - Sending CC: 4,46
+2023/04/06 18:15:34 Received request: time to 46 - Sending CC: 2,46
+2023/04/06 18:31:59 Received request: engine to modverb - Sending CC: 1,6
+2023/04/07 15:06:38 Received request: engine to modverb - Sending CC: 1,6
+2023/04/07 15:06:38 Received request: mix to 100 - Sending CC: 3,100
+2023/04/07 15:06:38 Received request: time to 25 - Sending CC: 2,25
+2023/04/07 15:06:38 Received request: delay to 25 - Sending CC: 4,25
+2023/04/07 15:06:38 Received request: TremeloDepth to 25 - Sending CC: 15,25
+2023/04/07 15:06:38 Received request: TremeloRate to 25 - Sending CC: 16,25
+2023/04/07 15:12:03 Received request: engine to room - Sending CC: 1,0
+2023/04/07 15:12:03 Received request: mix to 100 - Sending CC: 3,100
+2023/04/07 15:12:03 Received request: time to 25 - Sending CC: 2,25
+2023/04/07 15:12:03 Received request: delay to 25 - Sending CC: 4,25
+2023/04/07 15:12:03 Received request: Bass to 25 - Sending CC: 7,25
+2023/04/07 15:12:03 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/07 15:12:03 Failed to retrieve ventris midi
+2023/04/07 15:12:03 No output port available with that Id. You can get the Id through the MidiDeviceInformation returned from Get-Midi[Input|Output]DeviceInformation.
+Parameter name: Id
+2023/04/07 15:12:03 Ventris ID: \\?\SWD#MMDEVAPI#MIDII_1B391DCE.P_0000#{6dc23320-ab33-4ce4-80d4-bbb3ebbf2814}
+2023/04/07 15:12:19 Received request: engine to room - Sending CC: 1,0
+2023/04/07 15:12:19 Received request: mix to 100 - Sending CC: 3,100
+2023/04/07 15:12:19 Received request: time to 25 - Sending CC: 2,25
+2023/04/07 15:12:19 Received request: delay to 25 - Sending CC: 4,25
+2023/04/07 15:12:19 Received request: Bass to 25 - Sending CC: 7,25
+2023/04/07 15:12:19 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/07 19:29:37 Received request: engine to room - Sending CC: 1,0
+2023/04/07 19:29:37 Received request: mix to 100 - Sending CC: 3,100
+2023/04/07 19:29:37 Received request: time to 25 - Sending CC: 2,25
+2023/04/07 19:29:37 Received request: delay to 25 - Sending CC: 4,25
+2023/04/07 19:29:37 Received request: Bass to 25 - Sending CC: 7,25
+2023/04/07 19:29:37 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/07 19:29:55 Received request: engine to reverse - Sending CC: 1,11
+2023/04/07 19:29:55 Received request: mix to 100 - Sending CC: 3,100
+2023/04/07 19:29:55 Received request: time to 25 - Sending CC: 2,25
+2023/04/07 19:29:55 Received request: delay to 25 - Sending CC: 4,25
+2023/04/07 19:29:55 Received request: Diffusion to 25 - Sending CC: 8,25
+2023/04/07 19:29:55 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/08 16:33:53 Received request: engine to reverse - Sending CC: 1,11
+2023/04/08 16:33:53 Received request: mix to 100 - Sending CC: 3,100
+2023/04/08 16:33:53 Received request: time to 25 - Sending CC: 2,25
+2023/04/08 16:33:53 Received request: delay to 25 - Sending CC: 4,25
+2023/04/08 16:33:53 Received request: Diffusion to 25 - Sending CC: 8,25
+2023/04/08 16:33:53 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/08 16:35:53 Received request: engine to reverse - Sending CC: 1,11
+2023/04/08 16:35:53 Received request: mix to 100 - Sending CC: 3,100
+2023/04/08 16:35:53 Received request: time to 25 - Sending CC: 2,25
+2023/04/08 16:35:53 Received request: delay to 25 - Sending CC: 4,25
+2023/04/08 16:35:53 Received request: Diffusion to 25 - Sending CC: 8,25
+2023/04/08 16:35:53 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/08 16:37:47 Received request: engine to reverse - Sending CC: 1,11
+2023/04/08 16:37:47 Received request: mix to 100 - Sending CC: 3,100
+2023/04/08 16:37:47 Received request: time to 25 - Sending CC: 2,25
+2023/04/08 16:37:47 Received request: delay to 25 - Sending CC: 4,25
+2023/04/08 16:37:47 Received request: Diffusion to 25 - Sending CC: 8,25
+2023/04/08 16:37:47 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/08 16:45:00 Received request: engine to reverse - Sending CC: 1,11
+2023/04/08 16:45:00 Received request: mix to 100 - Sending CC: 3,100
+2023/04/08 16:45:00 Received request: time to 25 - Sending CC: 2,25
+2023/04/08 16:45:00 Received request: delay to 25 - Sending CC: 4,25
+2023/04/08 16:45:00 Received request: Diffusion to 25 - Sending CC: 8,25
+2023/04/08 16:45:00 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/08 16:46:13 Received request: engine to reverse - Sending CC: 1,11
+2023/04/08 16:46:13 Received request: mix to 100 - Sending CC: 3,100
+2023/04/08 16:46:13 Received request: time to 25 - Sending CC: 2,25
+2023/04/08 16:46:13 Received request: delay to 25 - Sending CC: 4,25
+2023/04/08 16:46:13 Received request: Diffusion to 25 - Sending CC: 8,25
+2023/04/08 16:46:13 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/08 16:47:59 Received request: time to 115 - Sending CC: 2,115
+2023/04/08 16:49:37 Received request: engine to room - Sending CC: 1,0
+2023/04/08 16:49:37 Received request: mix to 100 - Sending CC: 3,100
+2023/04/08 16:49:37 Received request: time to 25 - Sending CC: 2,25
+2023/04/08 16:49:37 Received request: delay to 25 - Sending CC: 4,25
+2023/04/08 16:49:37 Received request: Bass to 25 - Sending CC: 7,25
+2023/04/08 16:49:37 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/08 16:54:44 Received request: engine to reverse - Sending CC: 1,11
+2023/04/08 16:54:44 Received request: mix to 100 - Sending CC: 3,100
+2023/04/08 16:54:44 Received request: time to 25 - Sending CC: 2,25
+2023/04/08 16:54:44 Received request: delay to 25 - Sending CC: 4,25
+2023/04/08 16:54:44 Received request: Diffusion to 25 - Sending CC: 8,25
+2023/04/08 16:54:44 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/08 16:56:10 Transforming 69 out of 127 to 0 out of 
+2023/04/08 16:56:10 Received request:  to 69 - Sending CC: ,0
+2023/04/08 16:56:10 Failed to send midi cc
+2023/04/08 16:56:10 Cannot bind argument to parameter 'Controller' because it is null.
+2023/04/08 16:56:18 Transforming 58 out of 127 to 0 out of 
+2023/04/08 16:56:18 Received request:  to 58 - Sending CC: ,0
+2023/04/08 16:56:18 Failed to send midi cc
+2023/04/08 16:56:18 Cannot bind argument to parameter 'Controller' because it is null.
+2023/04/08 16:56:26 Received request: delay to 46 - Sending CC: 4,46
+2023/04/08 16:56:37 Received request: delay to 92 - Sending CC: 4,92
+2023/04/08 16:57:01 Transforming 92 out of 127 to 0 out of 
+2023/04/08 16:57:01 Received request:  to 92 - Sending CC: ,0
+2023/04/08 16:57:01 Failed to send midi cc
+2023/04/08 16:57:01 Cannot bind argument to parameter 'Controller' because it is null.
+2023/04/08 16:57:19 Transforming 92 out of 127 to 0 out of 
+2023/04/08 16:57:19 Received request:  to 92 - Sending CC: ,0
+2023/04/08 16:57:19 Failed to send midi cc
+2023/04/08 16:57:19 Cannot bind argument to parameter 'Controller' because it is null.
+2023/04/08 17:01:03 Transforming 104 out of 127 to 0 out of 
+2023/04/08 17:01:03 Received request:  to 104 - Sending CC: ,0
+2023/04/08 17:01:03 Failed to send midi cc
+2023/04/08 17:01:03 Cannot bind argument to parameter 'Controller' because it is null.
+2023/04/08 17:02:13 Transforming 92 out of 127 to 0 out of 
+2023/04/08 17:02:13 Received request:  to 92 - Sending CC: ,0
+2023/04/08 17:02:13 Failed to send midi cc
+2023/04/08 17:02:13 Cannot bind argument to parameter 'Controller' because it is null.
+2023/04/08 17:05:11 Received request: Diffusion to 104 - Sending CC: 8,104
+2023/04/08 17:05:25 Received request: ModDepth to 127 - Sending CC: 9,127
+2023/04/08 17:05:38 Received request: Diffusion to 0 - Sending CC: 8,0
+2023/04/08 17:14:38 Received request: engine to room - Sending CC: 1,0
+2023/04/08 17:14:38 Received request: mix to 100 - Sending CC: 3,100
+2023/04/08 17:14:38 Received request: time to 25 - Sending CC: 2,25
+2023/04/08 17:14:38 Received request: delay to 25 - Sending CC: 4,25
+2023/04/08 17:14:38 Received request: Bass to 25 - Sending CC: 7,25
+2023/04/08 17:14:38 Received request: ModDepth to 25 - Sending CC: 9,25

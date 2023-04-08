@@ -117,6 +117,7 @@ try {
 	Write-Host "Send CC Message to Ventris"
 	foreach ($request in $ventrisRequests) {
 		Send-MidiControlChangeMessage -Port $outputPort -Channel 0 -Controller $request.CC -Value $request.VAL
+		Start-Sleep 1
 	}
 }
 catch {
