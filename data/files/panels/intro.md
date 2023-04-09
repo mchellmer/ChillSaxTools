@@ -8,3 +8,5 @@ He learned his first bits and boops of human sound through retro arcades and jaz
 This channel aims to create a chill space for viewers to lounge and relax while enjoying Sev's captivating sound. As he continues exploring human language, he needs your help to find their sound.
 
 If you should join Sev on their journey you can shape their sound through a command console you link to from the convenience of your own home.
+
+disclaimer: 1972 is not a trained musician, they are very much winging all of this with < 5 years self-training
