@@ -16,7 +16,7 @@ function WriteLog
 	$Stamp = (Get-Date).toString("yyyy/MM/dd HH:mm:ss")
 	$LogMessage = "$Stamp $LogString"
 	Add-content $LogFile -value $LogMessage
-    Start-Sleep .05
+    Start-Sleep .02
 }
 
 ############################################## Import Modules
@@ -116,8 +116,13 @@ catch {
 try {
 	Write-Host "Send CC Message to Ventris"
 	foreach ($request in $ventrisRequests) {
+		if ($request.CC -eq 1) {
+			$timeoutSec = 1
+		} else {
+			$timeoutSec = .1
+		}
 		Send-MidiControlChangeMessage -Port $outputPort -Channel 0 -Controller $request.CC -Value $request.VAL
-		Start-Sleep 1
+		Start-Sleep $timeoutSec
 	}
 }
 catch {
