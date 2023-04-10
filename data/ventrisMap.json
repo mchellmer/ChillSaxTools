@@ -50,12 +50,12 @@
 			"MIN": 0,
 			"MAX": 127
 		},
-		"TremeloDepth": {
+		"TremoloDepth": {
 			"CC": 15,
 			"MIN": 0,
 			"MAX": 127
 		},
-		"TremeloRate": {
+		"TremoloRate": {
 			"CC": 16,
 			"MIN": 0,
 			"MAX": 127
@@ -129,8 +129,8 @@
 		},
 		"modverb": {
 			"Value": 6,
-			"control1": "TremeloDepth",
-			"control2": "TremeloRate"
+			"control1": "TremoloDepth",
+			"control2": "TremoloRate"
 		},
 		"shimmer": {
 			"Value": 7,
