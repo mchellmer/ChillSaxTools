@@ -4,7 +4,7 @@ param(
 	[string] $value="TrueSpring",
 	[string] $engine="TrueSpring",
 	[string] $basePath="C:\Users\mchel\Repos\ChillSaxTools",
-	[string] $manPath="C:\Program Files\Streamer.bot-x64-0.1.19\data\ChillSaxTools",
+	[string] $manPath="C:\Users\mchel\OneDrive\Documents\0_Store\Twitch\Manifests",
 	[string] $manFile="manifest.json"
 )
 

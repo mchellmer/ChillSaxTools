@@ -4,21 +4,22 @@ using System.Collections.Generic;
 
 public class CPHInline
 {
-    public string rawIn;
-    public string botAction;
-    public string manifestJson;
-    public string validatedInput;
-    public string paramValue;
-    public string obsValue;
-    public string engine;
-    public string obsPath;
-    public string[] engines;
-    public Dictionary<string, string> commandMap;
-    public string assetDir;
-    public string obsPng;
-    public string  manifestPath;
+    public string _rawIn;
+    public string _botAction;
+    public string _manifestJson;
+    public string _validatedInput;
+    public string _paramValue;
+    public string _obsValue;
+    public string _engine;
+    public string _obsTextPath;
+    public string[] _engines;
+    public Dictionary<string, string> _commandMap;
+    public string _assetDir;
+    public string _textDir;
+    public string _obsPng;
+    public string _manifestPath;
 
-    public bool ValidateEngine(string newValue, string[] valueList, string action){
+    public bool Validateengine(string newValue, string[] valueList, string action){
         var validated = false;
         int pos = Array.IndexOf(valueList, newValue);
         if (pos > -1 & action == "engine")
@@ -59,76 +60,76 @@ public class CPHInline
             CPH.LogInfo($"LogVars :: {arg.Key} = {arg.Value}");
             if (arg.Key == "input0")
             {
-                rawIn = $"{arg.Value}";
+                _rawIn = $"{arg.Value}";
             }
             if (arg.Key == "command")
             {
                 var commandRaw = $"{arg.Value}".TrimStart('!');
-                botAction = commandMap[commandRaw];
-                obsPath = $"{assetDir}/{botAction}.txt";
+                _botAction = _commandMap[commandRaw];
+                _obsTextPath = $"{_textDir}/{_botAction}.txt";
             }
         }
 
-        CPH.LogInfo($"rawIn :: {rawIn}");
-        CPH.LogInfo($"botAction :: {botAction}");
+        CPH.LogInfo($"_rawIn :: {_rawIn}");
+        CPH.LogInfo($"_botAction :: {_botAction}");
 
         //Validate inputs, set global, set param and obs values, build ventris json, then transform input if it's an int
-        var inNumeric = int.TryParse(rawIn, out _);
+        var inNumeric = int.TryParse(_rawIn, out _);
         CPH.LogInfo($"inNumeric :: {inNumeric}");
         if (inNumeric)
         {
-            var activeEngine = string.Join("", File.ReadAllLines($"{assetDir}/engine.txt"));
-            CPH.LogInfo($"Active engine :: {activeEngine}");
-            (string obsnum, string tranNum) = Transform(rawIn);
-            validatedInput = "True";
-            paramValue = tranNum;
-            obsValue = obsnum;
-            engine = activeEngine;
+            var activeengine = string.Join("", File.ReadAllLines($"{_textDir}/engine.txt"));
+            CPH.LogInfo($"Active engine :: {activeengine}");
+            (string obsnum, string tranNum) = Transform(_rawIn);
+            _validatedInput = "True";
+            _paramValue = tranNum;
+            _obsValue = obsnum;
+            _engine = activeengine;
             CPH.LogInfo($"Transform :: {tranNum}");
-            CPH.LogInfo($"Validated input :: {validatedInput}");
-            CPH.SetGlobalVar("validated", validatedInput);
+            CPH.LogInfo($"Validated input :: {_validatedInput}");
+            CPH.SetGlobalVar("validated", _validatedInput);
             //Manifest is a single midi cc request to update param value
-            manifestJson = $"[{VentrisManifest(botAction,tranNum,engine)}]";
+            _manifestJson = $"[{VentrisManifest(_botAction,tranNum,_engine)}]";
         }else
         {
-            var validEngine = ValidateEngine(rawIn,engines,botAction);
-            validatedInput = validEngine.ToString();
-            CPH.LogInfo($"Input validated as engine :: {validatedInput}");
-            CPH.SetGlobalVar("validated", validatedInput);
-            if (validEngine)
+            var validengine = Validateengine(_rawIn,_engines,_botAction);
+            _validatedInput = validengine.ToString();
+            CPH.LogInfo($"Input validated as engine :: {_validatedInput}");
+            CPH.SetGlobalVar("validated", _validatedInput);
+            if (validengine)
             {
-                paramValue = rawIn;
-                obsValue = rawIn;
-                engine = rawIn;
+                _paramValue = _rawIn;
+                _obsValue = _rawIn;
+                _engine = _rawIn;
                 //Manifest is a set of midi cc requests that updates the engine and sets engine defaults
-                manifestJson = $"[{VentrisManifest(botAction,paramValue,engine)},";
-                manifestJson += $"{VentrisManifest("mix","100",engine)},";
-                manifestJson += $"{VentrisManifest("time","25",engine)},";
-                manifestJson += $"{VentrisManifest("delay","25",engine)},";
-                manifestJson += $"{VentrisManifest("control1","25",engine)},";
-                manifestJson += $"{VentrisManifest("control2","25",engine)}]";
+                _manifestJson = $"[{VentrisManifest(_botAction,_paramValue,_engine)},";
+                _manifestJson += $"{VentrisManifest("mix","100",_engine)},";
+                _manifestJson += $"{VentrisManifest("time","25",_engine)},";
+                _manifestJson += $"{VentrisManifest("delay","25",_engine)},";
+                _manifestJson += $"{VentrisManifest("control1","25",_engine)},";
+                _manifestJson += $"{VentrisManifest("control2","25",_engine)}]";
 
                 //Update obs files with default values
-                WriteToFile($"{assetDir}/time.txt", "3");
-                WriteToFile($"{assetDir}/delay.txt", "2");
-                WriteToFile($"{assetDir}/control1.txt", "4");
-                WriteToFile($"{assetDir}/control2.txt", "4");
+                WriteToFile($"{_textDir}/time.txt", "3");
+                WriteToFile($"{_textDir}/delay.txt", "2");
+                WriteToFile($"{_textDir}/control1.txt", "4");
+                WriteToFile($"{_textDir}/control2.txt", "4");
 
                 //Update obs popup png with path to engine png
-                var enginePngFIle = $"{assetDir}/{rawIn}.png";
-                System.IO.File.Copy(enginePngFIle,obsPng,true);
+                var enginePngFIle = $"{_assetDir}/Obs/popups/{_rawIn}.png";
+                System.IO.File.Copy(enginePngFIle,_obsPng,true);
             }
         }
 
-        if (validatedInput.ToLower() == "true")
+        if (_validatedInput.ToLower() == "true")
         {
             //write manifest to file
-            WriteToFile(manifestPath, manifestJson);
+            WriteToFile(_manifestPath, _manifestJson);
 
             //write value to obsfile
-            WriteToFile(obsPath, obsValue);
+            WriteToFile(_obsTextPath, _obsValue);
 
-            CPH.LogInfo($"Received command :: set '{botAction}' to '{paramValue}' for engine '{engine}'");
+            CPH.LogInfo($"Received command :: set '{_botAction}' to '{_paramValue}' for engine '{_engine}'");
         }else{
             CPH.LogInfo($"Input invalid :: skip updating manifest and obs files");
         }
@@ -137,7 +138,7 @@ public class CPHInline
     }
 
     public CPHInline(){
-        engines = new string[]{
+        _engines = new string[]{
             "room",
             "hall",
             "dome",
@@ -152,7 +153,7 @@ public class CPHInline
             "reverse"
         };
 
-        commandMap = new Dictionary<string, string> (){
+        _commandMap = new Dictionary<string, string> (){
             {"control1","control1"},
             {"c1","control1"},
             {"dial1","control1"},
@@ -168,8 +169,9 @@ public class CPHInline
             {"time","time"},
             {"t","time"},
         };
-        assetDir = "C:/Program Files/Streamer.bot-x64-0.1.19/data/ChillSaxTools";
-        obsPng = $"{assetDir}/popup.png";
-        manifestPath = $"{assetDir}/manifest.json";
+        _assetDir = "C:/Users/mchel/OneDrive/Documents/0_Store/Twitch";
+        _textDir = $"{_assetDir}/Obs/text";
+        _obsPng = $"{_assetDir}/Obs/popups/popup.png";
+        _manifestPath = $"{_assetDir}/Manifests/manifest.json";
     }
 }

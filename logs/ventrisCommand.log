@@ -1444,3 +1444,18 @@ Parameter name: Id
 2023/04/09 09:41:55 Received request: delay to 25 - Sending CC: 4,25
 2023/04/09 09:41:55 Received request: Diffusion to 25 - Sending CC: 8,25
 2023/04/09 09:41:55 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/11 18:40:44 Received request: engine to reverse - Sending CC: 1,11
+2023/04/11 18:40:44 Received request: mix to 100 - Sending CC: 3,100
+2023/04/11 18:40:44 Received request: time to 25 - Sending CC: 2,25
+2023/04/11 18:40:44 Received request: delay to 25 - Sending CC: 4,25
+2023/04/11 18:40:44 Received request: Diffusion to 25 - Sending CC: 8,25
+2023/04/11 18:40:44 Received request: ModDepth to 25 - Sending CC: 9,25
+2023/04/11 18:40:44 Failed to retrieve ventris midi
+2023/04/11 18:40:44 Cannot bind argument to parameter 'Id' because it is null.
+2023/04/11 18:40:44 Ventris ID: 
+2023/04/11 18:41:18 Received request: engine to reverse - Sending CC: 1,11
+2023/04/11 18:41:18 Received request: mix to 100 - Sending CC: 3,100
+2023/04/11 18:41:18 Received request: time to 25 - Sending CC: 2,25
+2023/04/11 18:41:18 Received request: delay to 25 - Sending CC: 4,25
+2023/04/11 18:41:18 Received request: Diffusion to 25 - Sending CC: 8,25
+2023/04/11 18:41:18 Received request: ModDepth to 25 - Sending CC: 9,25
