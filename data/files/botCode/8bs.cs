@@ -16,7 +16,6 @@ public class CPHInline
     public Dictionary<string, string> _commandMap;
     public string _assetDir;
     public string _textDir;
-    public string _obsPng;
     public string _manifestPath;
 
     public bool Validateengine(string newValue, string[] valueList, string action){
@@ -101,6 +100,10 @@ public class CPHInline
                 _paramValue = _rawIn;
                 _obsValue = _rawIn;
                 _engine = _rawIn;
+
+                //Update global current engine
+                CPH.SetGlobalVar("globalCurrentEngine", _engine);
+
                 //Manifest is a set of midi cc requests that updates the engine and sets engine defaults
                 _manifestJson = $"[{VentrisManifest(_botAction,_paramValue,_engine)},";
                 _manifestJson += $"{VentrisManifest("mix","100",_engine)},";
@@ -117,7 +120,7 @@ public class CPHInline
 
                 //Update obs popup png with path to engine png
                 var enginePngFIle = $"{_assetDir}/Obs/popups/{_rawIn}.png";
-                System.IO.File.Copy(enginePngFIle,_obsPng,true);
+                CPH.ObsSetImageSourceFile("Scene", "Info", enginePngFIle);
             }
         }
 
@@ -171,7 +174,6 @@ public class CPHInline
         };
         _assetDir = "C:/Users/mchel/OneDrive/Documents/0_Store/Twitch";
         _textDir = $"{_assetDir}/Obs/text";
-        _obsPng = $"{_assetDir}/Obs/popups/popup.png";
         _manifestPath = $"{_assetDir}/Manifests/manifest.json";
     }
 }

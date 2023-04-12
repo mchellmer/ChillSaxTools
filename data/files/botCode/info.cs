@@ -4,10 +4,9 @@ using System.Threading;
 
 public class CPHInline
 {
-    public string assetDir;
-    public string sourcePng;
-    public string obsPng;
-    public string backupPng;
+    public string _assetDir;
+    public string _sourcePng;
+    public string _currentEngine;
 
     public bool Execute()
     {
@@ -17,22 +16,27 @@ public class CPHInline
             if (arg.Key == "command")
             {
                 var commandRaw = $"{arg.Value}".TrimStart('!');
-                sourcePng = $"{assetDir}/{commandRaw}.png";
+                _sourcePng = $"{_assetDir}/{commandRaw}.png";
             }
         }
-        File.Copy(obsPng,backupPng,true);
-        File.Copy(sourcePng,obsPng,true);
+
+        var globalCurrentEngine = CPH.GetGlobalVar<string>("globalCurrentEngine");
+        CPH.LogInfo($"globalCurrentEngine :: \"{globalCurrentEngine}\"");
+        if (!string.IsNullOrWhiteSpace(globalCurrentEngine))
+        {
+            _currentEngine = globalCurrentEngine;
+        }
+
+        CPH.ObsSetImageSourceFile("Scene", "Info", _sourcePng);
         Thread.Sleep(5000);
-        File.Copy(backupPng,obsPng,true);
-        
-        CPH.LogInfo($"Set obs png to :: {sourcePng}");
+        CPH.ObsSetImageSourceFile("Scene", "Info", $"{_assetDir}/{_currentEngine}.png");
+        CPH.LogInfo($"Set obs png to :: {_sourcePng}");
 
         return true;
     }
 
     public CPHInline(){
-        assetDir = "C:/Program Files/Streamer.bot-x64-0.1.19/data/ChillSaxTools";
-        obsPng = $"{assetDir}/popup.png";
-        backupPng = $"{assetDir}/popup_backup.png";
+        _currentEngine = "room";
+        _assetDir = "C:/Users/mchel/OneDrive/Documents/0_Store/Twitch/Obs/popups";
     }
 }
