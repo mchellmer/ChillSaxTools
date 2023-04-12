@@ -1566,3 +1566,12 @@ Parameter name: Id
 2023/04/12 18:18:43 Received request: Bass to 25 - Sending CC: 7,25
 2023/04/12 18:18:43 Transforming 25 out of 127 to 1 out of 5
 2023/04/12 18:18:43 Received request: HallSize to 25 - Sending CC: 13,1
+2023/04/12 18:26:28 Failed to import module at C:\Users\mchel\Repos\ChillSaxTools\lib\Windows-10-PowerShell-MIDI-master\PeteBrown.PowerShellMidi\bin\Debug\PeteBrown.PowerShellMidi.dll
+2023/04/12 18:26:28 Operation is not supported on this platform. (0x80131539)
+2023/04/12 18:26:49 Failed to import module at C:\Users\mchel\Repos\ChillSaxTools\lib\Windows-10-PowerShell-MIDI-master\PeteBrown.PowerShellMidi\bin\Debug\PeteBrown.PowerShellMidi.dll
+2023/04/12 18:26:49 Operation is not supported on this platform. (0x80131539)
+2023/04/12 18:28:19 Received request: engine to room - Sending CC: 1,0
+2023/04/12 18:28:19 Received request: Bass to 60 - Sending CC: 7,60
+2023/04/12 18:28:19 Received request: ModDepth to 40 - Sending CC: 9,40
+2023/04/12 18:28:19 Received request: delay to 30 - Sending CC: 4,30
+2023/04/12 18:28:19 Received request: time to 40 - Sending CC: 2,40
